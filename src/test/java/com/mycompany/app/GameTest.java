@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 /**
  * Unit test for simple App.
  */
-//Testing
+
 public class GameTest
 {
 	@Test
@@ -62,7 +62,7 @@ public class GameTest
           	assertEquals(expected, result);
           	
         } catch (Exception e) {
-            fail("Array was not sorted");
+            fail("Something went wrong");
         }
     }
     
